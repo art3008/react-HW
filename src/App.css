@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.shop_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  margin: 10px;
+}
