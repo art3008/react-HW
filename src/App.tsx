@@ -12,6 +12,7 @@ function App() {
     {
       nameShop: 'Magnum',
       timeStart: '09:00',
+      timeFinish: '23:00'
     }
   ])
 

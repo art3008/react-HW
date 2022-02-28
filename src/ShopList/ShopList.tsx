@@ -11,7 +11,7 @@ console.log(shop)
             {shop.map((item: any, index: number) => {
                 return(
                 <div key={index} className='shop_list'>
-                    <div>{item.nameShop} ({item.timeStart})</div>
+                    <div>{item.nameShop} ({item.timeStart} - {item.timeFinish})</div>
                 </div>
                 )
             })}
